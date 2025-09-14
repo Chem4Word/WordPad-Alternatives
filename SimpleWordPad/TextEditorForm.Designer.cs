@@ -3,15 +3,8 @@ namespace SimpleWordPad
 {
     partial class MainForm
     {
-        /// <summary>
-        /// Обязательная переменная конструктора.
-        /// </summary>
         private System.ComponentModel.IContainer components = null;
 
-        /// <summary>
-        /// Освободить все используемые ресурсы.
-        /// </summary>
-        /// <param name="disposing">истинно, если управляемый ресурс должен быть удален; иначе ложно.</param>
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
@@ -21,12 +14,6 @@ namespace SimpleWordPad
             base.Dispose(disposing);
         }
 
-        #region Код, автоматически созданный конструктором форм Windows
-
-        /// <summary>
-        /// Требуемый метод для поддержки конструктора — не изменяйте 
-        /// содержимое этого метода с помощью редактора кода.
-        /// </summary>
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
@@ -397,7 +384,7 @@ namespace SimpleWordPad
             this.RichTextBox.Location = new System.Drawing.Point(0, 0);
             this.RichTextBox.Name = "RichTextBox";
             this.RichTextBox.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.ForcedVertical;
-            this.RichTextBox.Size = new System.Drawing.Size(800, 377);
+            this.RichTextBox.Size = new System.Drawing.Size(800, 344);
             this.RichTextBox.TabIndex = 1;
             this.RichTextBox.Text = "";
             this.RichTextBox.TextChanged += new System.EventHandler(this.RichTextBox_TextChanged);
@@ -537,13 +524,13 @@ namespace SimpleWordPad
             // toolStripContainer1.ContentPanel
             // 
             this.toolStripContainer1.ContentPanel.Controls.Add(this.RichTextBox);
-            this.toolStripContainer1.ContentPanel.Size = new System.Drawing.Size(800, 377);
+            this.toolStripContainer1.ContentPanel.Size = new System.Drawing.Size(800, 344);
             this.toolStripContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.toolStripContainer1.LeftToolStripPanelVisible = false;
             this.toolStripContainer1.Location = new System.Drawing.Point(0, 24);
             this.toolStripContainer1.Name = "toolStripContainer1";
             this.toolStripContainer1.RightToolStripPanelVisible = false;
-            this.toolStripContainer1.Size = new System.Drawing.Size(800, 426);
+            this.toolStripContainer1.Size = new System.Drawing.Size(800, 393);
             this.toolStripContainer1.TabIndex = 2;
             this.toolStripContainer1.Text = "toolStripContainer1";
             // 
@@ -819,7 +806,7 @@ namespace SimpleWordPad
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(800, 417);
             this.Controls.Add(this.toolStrip1);
             this.Controls.Add(this.toolStripContainer1);
             this.Controls.Add(this.menuStrip);
@@ -847,8 +834,6 @@ namespace SimpleWordPad
             this.PerformLayout();
 
         }
-
-        #endregion
 
         private System.Windows.Forms.MenuStrip menuStrip;
         private System.Windows.Forms.ToolStripMenuItem fileToolStripMenuItem;
